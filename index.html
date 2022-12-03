@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="gallery.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="js-gallery">
+    </div>
+  </div>
+
+  <script src="gallery.js"></script>
+  <script>
+    initGallery({
+      container: ".js-gallery",
+      images: [
+        "images/photo1.jpeg",
+        "images/photo2.jpeg",
+        "images/photo3.jpeg",
+        "images/photo4.jpeg",
+        "images/photo5.jpeg",
+        "images/photo6.jpeg",
+        "images/photo7.jpeg"
+      ]
+    })
+  </script>
+</body>
+</html>
